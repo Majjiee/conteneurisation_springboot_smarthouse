@@ -1,0 +1,30 @@
+# =========================
+# Angular / Node
+# =========================
+node_modules/
+.angular/
+dist/
+build/
+.cache/
+
+# =========================
+# Java / Spring Boot
+# =========================
+target/
+*.jar
+*.war
+*.class
+
+# =========================
+# Environment / Docker
+# =========================
+.env
+.env.*
+docker-compose.override.yml
+
+# =========================
+# IDE
+# =========================
+.idea/
+.vscode/
+*.iml
